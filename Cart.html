@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Cart</title>
+		<link rel="stylesheet" href="styleCart.css">	
+		<link rel="stylesheet" href="style_project2.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">				
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/calcFunc.js" defer></script>
+	</head>
+	
+	<body>
+		<!-- Header of the page  -->
+		<div class = "header_homepage">
+			<div class = "logo">
+				<h1><a href = "home.html"><i class = "fa fa-envira">EcoNow</i></a></h1>
+			</div >
+			
+			<div class = "search">
+				<form action = "search_tester.html">
+					<input type = "text" placeholder = "Search..." name = "container-searchbox">
+					<button type = "Submit" target = "search_tester.html"><i class = "fa fa-search"></i></button>
+				</form>
+			</div>
+			
+			<div class = "sign">
+				<h3>Welcome, <a href = "signin.html">Sign in </a><h3>
+			</div>
+			
+			<div class = "cart">				
+				<a href = "cart.html" class = "cart_page"><i class = "fa fa-shopping-cart fa-3x"></i></a>
+			</div>			
+		</div>
+		
+		<!-- Navigation panel -->
+		<div class = "navigation">
+			<a href="home.html">Home</a>
+			<a href="reusable.html">Reusable Products</a>
+			<a href="recyclable.html">Recyclable Products</a>
+			<a href="organic.html">Organic Products</a>				
+		</div>
+		
+		<!-- Social media sticky bar -->
+		<div class="social_media">
+			<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+			<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+			<a href="#" class="google"><i class="fa fa-google"></i></a>
+			<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+			<a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+		</div>
+		
+		<!-- Main cart body having the selected product images, quantity selector, price, order summery, estimated total etc.-->
+		<div class="main-cart">
+			<h2 class="shopping-cart">Shopping Cart</h2>
+		</div>
+		<div class = "row">
+			<div class="column">
+				<img src="Asset/Category/toothbrush2.jpg" alt = "Trulli" width="300vw" height="430vw">
+			</div>
+			<div class="column">
+				<h3>Recycable Products</h3>
+				<p>Bamboo Toothbrush</p>
+				<p>$3.99</p>
+				<button class="button" type="button" onclick="alert">Edit</button>
+				<button class="button" type="button" onclick="alert">Add to Wishlist</button>
+			
+				<form action="/action_page.php">
+					<label for="quantity" >Quantity:</label>
+					<input type="number" id="quantity" name="quantity">
+				</form>
+			</div>	
+	
+			<div class="column">
+				<div>
+					<h3>Order Summary</h3>
+					<p>SubTotal $<span id="subtotal">0</span></p>
+					<p>Free Shipping</p>
+					<p> Tax $<span id="tax">0</span></p>
+					<p>Estimated Total $<span id="totalPrice">0</span></p>
+				</div>
+			
+		
+				<div>
+					<button class="checkout" type="button" onclick="alert">CHECKOUT</button>
+				</div>
+
+				<div class="payment">
+					<i class="fa fa-cc-visa" style="font-size:38px; color:green"></i>
+					<i class="fa fa-paypal" style="font-size:38px;color:blue"></i>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Footer of the page -->
+		<div class = "footer">
+			<div class = "footer_links">
+				<a href="#">Contact Us</a>
+				<a href="#">About us</a>
+				<a href="#">Customer Support</a>
+				<a href="#">Join Our Team</a><br>
+				<p>Copyright <a href = "home.html">EcoNow</a></p>
+			</div>
+		</div>	
+		
+	</body>
+</html>
+		

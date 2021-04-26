@@ -1,0 +1,330 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	background-color: #FEF9E7;
+}
+
+/*Landing page header Begins*/
+.header_homepage{	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 8vw;	
+	background-color: #52BE80;	
+}
+
+.logo{
+	flex:10%;
+	color: black;
+	margin-left: 5vw;	
+}
+
+.search{
+	flex:5%;
+	object-fit:cover;
+}
+
+.search input{
+	height: 2vw;
+	width: 12vw;	
+}
+
+.search button{
+	height: 2vw;
+	width: 2.5vw;
+	Object-fit:cover;
+}
+
+.sign{	
+	flex:5%;
+	color: black;
+	font-size:1vw;
+}
+
+.sign a{
+	color:black;
+	font-weight: bold;
+}
+
+.cart{
+	flex:0%;	
+}
+/*Landing page header ends*/
+
+/* Begining of navigation */
+
+.navigation {
+	display: flex;
+	background-color: #333;
+	justify-content: center;
+}
+
+.navigation a{
+	color: white;
+	padding: 14px 20px;
+	text-decoration: none;
+	text-align: center;	
+}
+
+.navigation a:hover{
+	background-color: yellow;
+	color:black;
+}
+
+/* End of navigation */
+
+/*Beginning of Banner*/
+
+#banner{
+  padding: 5vw;
+  background-image: url("Asset/banner2.jpg")  ;
+  background-size:50% 100%;
+  background-repeat: repeat;
+  text-align: center;
+  color:white;
+ }
+
+/* Beginning of Sticky Social Media sidebar*/
+
+.social_media {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.social_media a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.social_media a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+/* End of Sticky Social Media sidebar*/
+
+
+/*Main begins*/
+
+.main{
+	padding-top: 5vw;
+	padding-bottom: 25vw;
+	height: 40vw;
+	background-color: #FEF9E7;	
+}
+
+.feature{
+	display: flex;	
+	justify-content: center;	
+	font-family: veredana;
+}
+
+.image img{
+	padding: 1vw;
+	height: 20vw;
+	width: 15vw;
+	object-fit: cover;
+}
+
+.feature .image p{	
+	
+	font-size:1vw;
+	color:green;	
+}
+/*Main ends*/
+
+/*Footer Begins*/
+
+.footer{
+	padding: 1vw;
+	display: flex;
+	justify-content: center;	
+	background-color:#52BE80;
+	font-weight:normal;
+	font-size: 1vw;
+	position:fixed;
+    bottom: 0px;
+    width:100%;
+}
+
+.footer_links{
+	text-align: center;
+	color:black;
+}
+
+.footer a,p{
+	font-weight: bold;	
+	margin-left: 2vw;
+}
+
+/*Footer ends*/
+
+/* Begining of search declaration --> search.html */
+.search_declaration p{
+	text-align: center;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	color:black;
+}
+
+.filter{
+	text-align: center;
+	width: 100%;
+	
+}
+
+.filter ul{		
+	
+	list-style: none;
+	font-family: verdana;
+	font-weight: bold;	
+}
+
+.filter ul li{
+	display: inline-block;	
+	margin-left:20px;
+}
+/* End of search declaration --> search.html */
+
+/* Begining of Search Page Picture Gallery*/
+.art_search{
+	height:40vw;
+	padding-bottom:80px;
+}
+	
+.row_search{
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+.column_search img{
+	flex:50%;	
+	padding: 1vw;
+	height: 20vw;
+	width: 15vw;
+	object-fit: cover;	
+}
+
+.column_search p{
+	font-family: verdana;
+	text-align: center;
+	font-weight:bold;
+	color:black;
+}
+
+/* End of Search Page Picture Gallery*/
+
+/* Begining of signin */
+
+.signup{
+	padding-bottom: 15vw;
+}
+
+.signup_container input[type=text], input[type=password] {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.signup_container input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.signup_container hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+.signup_form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.signup_form button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.signup_form .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.signup_container {
+  padding: 16px;
+}
+
+.signup_container p{
+  color:black;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 50%;
+  }
+}
+
+/* End of signin */

@@ -1,0 +1,76 @@
+
+* {    
+    box-sizing: border-box;
+	list-style-type: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* category title in the center */
+
+.title-category {
+    text-align: center;
+}
+
+/* Size of the container */
+.row{
+	height:25vw;		
+}
+
+/* Formatting up columns and items inside */
+ .column {
+    float: left;
+    width: 16.00%;   
+} 
+.name {
+	color: black;
+	text-align: start;
+}
+
+.column {
+    flex:16%;
+    height: 100%;
+    padding-left: 5px;
+    margin-top: 20px;
+    font-family:arial;
+    text-align: left;
+    
+  }
+
+.column img{
+	margin-left: 3vw;
+	width:15vw;
+	height: 18vw;
+	object-fit:cover;
+}
+
+.column form {
+	width:12%;
+	margin-left: 2vw;	
+}
+
+.column form label{
+	Font: Arial;
+	font-size: 20px;	
+}
+
+nav ul li{
+    font-size:20px;
+	line-height:80px;
+	/*margin:0 25px;*/
+}
+
+a {
+    color: black;
+}
+
+.name {
+	margin-left: 150px;
+}
+
+.price {
+	margin-left: 170px;
+}

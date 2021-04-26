@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Products List</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style_project2.css">
+        <link rel="stylesheet" href="productpage.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="searchbar.js" defer></script>
+        <script src="js/listItems.js" defer></script>
+    </head>
+
+    <body>
+        <div class = "header_homepage">
+            <div class = "logo">
+                <h1><a href = "tester.html"><i class = "fa fa-envira">EcoNow</i></a></h1>
+            </div >
+
+            <div class = "search">
+                <form name="searchBar">
+                    <input type = "text" placeholder = "Search..." name = "container-searchbox">
+                </form>
+            </div>
+
+            <div class = "sign">
+                <h3>Welcome, <a href = "signin.html">Sign in </a><h3>
+            </div>
+
+            <div class = "cart">
+                <a href = "cart.html" class = "cart_page"><i class = "fa fa-shopping-cart fa-3x"></i></a>
+            </div>
+        </div>
+        <div class = "navigation">
+            <a href="home.html">Home</a>
+            <a href="reusable.html">Reusable Products</a>
+            <a href="recyclable.html">Recyclable Products</a>
+            <a href="organic.html">Organic Products</a>
+        </div>
+
+        <div>
+            <h2 class = "product_list">Products</h2>
+        </div>
+
+        <div class="row"  id="list-items" >
+        </div>
+        <div class="row"></div>
+
+            <!-- <div class = "column" id='MeshGroceryBag'> -->
+<!--                <a href = "Grocerybag.html"><img class="image1" src= "Asset/category/meshbag1.jpg" width="200" height="250"></a>-->
+<!--                <div class="name">Mesh Grocery Bag</div>-->
+<!--                <div class="price">$8.99</div>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+ <!--            </div>
+
+            <div class="column" id='BambooRazor'> -->
+<!--                <a href = "razor.html"><img class="image2" src="Asset/category/razor2.jpg"  width="200" height="250"></a>-->
+<!--                <div class="name">Bamboo Razor</div>-->
+<!--                <div class="price">$26.99</div>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star"></span>-->
+          <!--   </div>
+            <div class="column" id='TakeOutContainer'> -->
+<!--                <a href = "container.html"><img class="image3" src="Asset/Product/takeout1.jpg"  width="200" height="250"></a>-->
+<!--                <div class="name">Take-out Container</div>-->
+<!--                <div class="price">$0.99</div>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--            </div>-->
+            <!-- <div class="column" id='BabmbooToothbrush'> -->
+<!--                <a href = "toothbrush.html"><img class="image4" src="Asset/Product/toothbrush1.jpg"  width="200" height="250"></a>-->
+<!--                <div class="name">Bamboo toothbrush</div>-->
+<!--                <div class="price">$3.99</div>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--            </div>-->
+            <!-- <div class="column" id='EssenceOil'> -->
+<!--                <a href = "essence.html"><img class="image5" src="Asset/Product/essence2.jpg"  width="200" height="250"></a>-->
+<!--                <div class="name">Essence Oil</div>-->
+<!--                <div class="price">$12.99</div>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+        <!--    </div>
+        </div> 
+<div class = "row2">
+            <div class = "column" id='OrganicSoap'> -->
+<!--                <a href = "soap.html"><img class="image6" src="Asset/Product/soap1.jpg" width="200" height="250"></a>-->
+<!--                <div class = "description">-->
+<!--                    <div class="name">Organic Soap</div>-->
+<!--                    <div class="price">$6.99</div>-->
+<!--                    <span class="fa fa-star checked"></span>-->
+<!--                    <span class="fa fa-star checked"></span>-->
+<!--                    <span class="fa fa-star checked"></span>-->
+<!--                    <span class="fa fa-star checked"></span>-->
+<!--                    <span class="fa fa-star checked"></span>-->
+
+    <!--             </div>
+           
+
+            <div class="column" id='BambooBrush'> -->
+<!--                <a href = "brush.html"><img class="image7" src="Asset/product/brush1.jpg" width="200" height="250"></a>-->
+<!--                <div class="name">Bamboo Brush</div>-->
+<!--                <div class="price">$4.99</div>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+           <!-- </div>
+            <div class="column" id='BambooCultery'> -->
+<!--                <a href = "cultery.html"><img class="image8" src="Asset/Product/cutlery.jpg"  width="200" height="250"></a>-->
+<!--                <div class="name">Bamboo cultery</div>-->
+<!--                <div class="price">$7.99</div>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+          <!--   </div>
+            <div class="column" id='BambooRemoverPad'> -->
+<!--                <a href = "pads.html"><img class="image9" src="Asset/Product/pad1.jpg"  width="200" height="250"></a>-->
+<!--                <div class="name">Bamboo Makeup Remover Pad</div>-->
+<!--                <div class="price">$9.99</div>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                 <span class="fa fa-star"></span>-->
+            <!-- </div>
+            <div class="column" id='StainlessStraw'> --> 
+<!--                <a href = "straws.html"><img class="image10" src="Asset/Product/straw1.jpg"  width="200" height="250"></a>-->
+<!--                <div class="name">Stainless Straw</div>-->
+<!--                <div class="price">$5.99</div>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+<!--                <span class="fa fa-star checked"></span>-->
+            <!-- </div> -->
+
+        
+        <div class = "footer">
+			<div class = "footer_links">
+				<a href="#">Contact Us</a>
+				<a href="#">About us</a>
+				<a href="#">Customer Support</a>
+				<a href="#">Join Our Team</a><br>
+				<p>Copyright <a href = "home.html">EcoNow</a></p>
+			</div>
+		</div>		
+    </body>
+</html>

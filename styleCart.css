@@ -1,0 +1,68 @@
+  
+
+/* design of the check out button*/
+.checkout {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 32px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 1px 2px;
+    text-align: center;
+}
+ 
+/* make 3 columns*/
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.shopping-cart {
+	margin-left: 180px;
+}
+
+.column p{
+	color:black;
+}
+
+.column img{
+	margin-left: 125px;
+}
+
+/* the desgin for checkout button, black background, white text */
+.button {
+    background: transparent;
+    border: none;
+    margin: 5px auto 0;
+    font-size: 15px;
+    outline: none;
+    background-color: white;
+    position: relative;  
+    transition: 0.3s;
+    border-bottom: 0.5px solid black;
+    cursor: pointer;
+}
+
+#quantity {
+    margin-top: 10px;
+}
+
+.payment {
+    word-spacing: 20px;
+    cursor: pointer;
+}
+
+.row{
+	padding-bottom: 10vw;
+}
+
+.row:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+
+

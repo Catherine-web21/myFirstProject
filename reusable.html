@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+
+		
+	<head>
+		<title>Reusable</title>
+		<link rel="stylesheet" href="styleCategory.css">
+		<link rel="stylesheet" href="style_project2.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<script src="js/searchFunc.js" defer></script>
+		<script src="js/ratingsort.js" defer></script>
+		<script src="js/sortFunc.js" defer></script>
+		<script src="js/filterFunc.js" defer></script>
+
+	</head>
+	<body>	
+	
+		<div class = "header_homepage">
+			<div class = "logo">
+				<h1><a href = "tester.html"><i class = "fa fa-envira">EcoNow</i></a></h1>
+			</div >
+			
+			<div class = "search">
+				<form name="searchBar">
+					<input type = "text" placeholder = "Search..." name = "container-searchbox">
+				</form>
+			</div>
+			
+			<div class = "sign">
+				<h3>Welcome, <a href = "signin.html">Sign in </a><h3>
+			</div>
+			
+			<div class = "cart">				
+				<a href = "cart.html" class = "cart_page"><i class = "fa fa-shopping-cart fa-3x"></i></a>
+			</div>			
+		</div>
+		<div class = "navigation">
+			<a href="home.html">Home</a>			
+			<a href="recyclable.html">Recyclable Products</a>
+			<a href="organic.html">Organic Products</a>				
+		</div>
+
+		<!-- <div class="social_media">
+			<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+			<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+			<a href="#" class="google"><i class="fa fa-google"></i></a>
+			<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+			<a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+		</div> -->
+
+
+  			<div>
+    		    <h3 class="title-category"> Reusable Products   </h3>
+   			</div>
+   			 <nav class="column">
+				
+				<form action = "">
+					<label for = "PriceRange">Price</label>
+						<select id = "PriceRange" name = "PriceRange">
+							<option value = "Range0" id = "range0">Choose Range</option>
+							<option value = "Range1" id = "range1">Less than $5.00</option>
+							<option value = "Range2" id = "range2" >$5.00 to $10.00</option>
+							<option value = "Range3" id = "range3">$10.00 to $20.00</option>
+							<option value = "Range4" id = "range4">Above $20.00</option>
+						</select>
+						<br>
+				</form>
+        		<!-- <p> Price Filter:</P>
+				<form action = "">
+					<label for = "minPriceRange">Min</label>
+					<input type = "number" id = "minPriceRange" name = "minPriceRange">						
+					<label for = "maxPriceRange">Max</label>
+					<input type = "number" id = "maxPriceRange" name = "maxPriceRange">					
+					<button onclick = "fliterFunction()">Submit</button>
+				</form> -->
+				
+				<ul>         		 
+         		 <li><a href="#" id="lowToHigh">Price Low to High +</a></li>
+         		 <li><a href="#" id="highToLow">Price High to Low +</a></li>
+				  <li><a href="#" id="ratinglowToHigh">Rating Low to High +</a></li>
+         		 <li><a href="#" id="ratinghighToLow">Rating High to Low +</a></li>
+         		 
+      			</ul>
+   			</nav>
+
+ 		  	 <div class="row" id="list-items">
+			   
+			  <!--  <div class = "column" id='MeshGroceryBag'>
+				 <a href = "Grocerybag.html"><img class="image1" src= "Asset/category/meshbag1.jpg" width="200" height="250"></a>
+				 <p class="name">Mesh Grocery Bag</p>
+				 <p class="price">$8.99</p>
+			   </div> -->
+			   
+			   <!-- <div class = "column" id='MeshGroceryBag'>
+                      <a href = "Grocerybag.html"><img class="image1" src= "Asset/category/meshbag1.jpg" width="200" height="250"></a>
+                      <span class="name">Mesh Grocery Bag</span>
+                      <span class="price">$8.99</span>
+                       
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+
+                </div> -->
+<!-- 
+			   <div class="column" id='BambooRazor'>
+					<a href = "razor.html"><img class="image2" src="Asset/category/razor2.jpg"  width="200" height="250"></a>
+				 <p class="name">Bamboo Razor</p>
+					<p class="price">$29.99</p>
+			   </div>
+			   
+			   <div class="column" id='BambooCutlery'>
+					<a href = "cultery.html"><img class="image2" src="Asset/category/cutlery.jpg"  width="200" height="250"></a>
+				 <p class="name">Bamboo Cutlery</p>
+					<p class="price">$7.99</p>
+			   </div>
+			   
+			   
+			   <div class="column" id='BambooMakeupRemover'>
+					<a href = "pads.html"><img class="image2" src="Asset/category/pad.jpg"  width="200" height="250"></a>
+				 <p class="name">Bamboo Makeup Remover Pad</p>
+					<p class="price">$9.99</p>
+			   </div>
+			   
+			   <div class="column" id='Stainless Straw'>
+					<a href = "straws.html"><img class="image2" src="Asset/category/straw.jpg"  width="200" height="250"></a>
+				 <p class="name">Stainless Straw</p>
+					<p class="price">$5.99</p>
+			   </div>
+			   
+			</div>  			 -->
+			
+			<!-- <div class = "footer">
+				<div class = "footer_links">
+					<a href="#">Contact Us</a>
+					<a href="#">About us</a>
+					<a href="#">Customer Support</a>
+					<a href="#">Join Our Team</a><br>
+					<p>Copyright <a href = "home.html">EcoNow</a></p>
+			</div>	 -->
+
+        
+	
+	</body>
+</html>
